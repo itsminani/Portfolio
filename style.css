@@ -680,3 +680,9 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+.card a .box .text,
+.card a .box p
+{
+    text-decoration: none;
+    color: white;
+}
