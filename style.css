@@ -190,8 +190,9 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(38, 131, 192);
+    color: white;
     font-weight: 500;
+    background-color: rgb(38, 131, 192);
 }
 .home .home-content a{
     display: inline-block;
@@ -269,6 +270,9 @@ section .title::after{
     content: "what i provide";
 }
 .creative .serv-content .card{
+    margin: 10px;
+    min-height: 100px;
+    height: 180px;
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -360,19 +364,22 @@ section .title::after{
     background: rgb(38, 131, 192);
 }
 .projects-content .right .html::before{
-    width: 90%;
+    width: 75%;
 }
 .projects-content .right .css::before{
-    width: 60%;
+    width: 65%;
 }
 .projects-content .right .js::before{
     width: 80%;
 }
-.projects-content .right .php::before{
-    width: 50%;
+.projects-content .right .python::before{
+    width: 90%;
 }
-.projects-content .right .mysql::before{
+.projects-content .right .vue::before{
     width: 70%;
+}
+.projects-content .right .aws::before{
+    width: 60%;
 }
 
 /* teams section styling */
